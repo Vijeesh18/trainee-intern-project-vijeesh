@@ -1,0 +1,35 @@
+.pages-list{
+    display: flex;
+    
+    border: solid rgb(169, 235, 255);
+    
+    border-radius: 30px;
+    
+    margin: 3em 25em;
+    background-color: rgb(98, 133, 228);
+    margin-left: 20em;
+    margin-right: 50em;
+
+    
+}
+.old{
+    margin-left: 5em;
+    margin-right: -5.5em;
+    
+}
+.pages-list li{
+    padding: 0.5em 0em;
+    list-style-type:none;  
+    
+    
+    
+}
+.pages-list a{
+    text-decoration: none;
+    color: white;
+    padding: 0.5em;
+}
+.pages-list li :hover{
+    background-color: rgb(233, 244, 255);
+    color: hotpink;
+}
